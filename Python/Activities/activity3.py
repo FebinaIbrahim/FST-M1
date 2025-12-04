@@ -12,18 +12,24 @@ if user1_response == user2_response:
 elif user1_response == 'rock':
     if user2_response == 'scissors':
         print(user1+" wins!")
-    else:
+    elif user2_response =='paper':
         print(user2+" wins!")
+    else:
+        print(f"Invalid input! {user2} have not entered rock, paper or scissors, try again.")
 elif user1_response == 'scissors':
     if user2_response == 'paper':
         print(user1+" wins!")
-    else:
+    elif user_response=='rock':
         print(user2+" wins!")
+    else:
+        print(f"Invalid input! {user2} have not entered rock, paper or scissors, try again.")
 elif user1_response == 'paper':
     if user2_response == 'rock':
         print(user1+" wins!")
-    else:
+    elif user2_response=='scissors':
         print(user2+" wins!")
-    
+    else:
+        print(f"Invalid input! {user2} have not entered rock, paper or scissors, try again.")
+        
 else:
     print("Invalid input! You have not entered rock, paper or scissors, try again.")
