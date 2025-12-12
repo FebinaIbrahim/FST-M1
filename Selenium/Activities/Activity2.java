@@ -13,7 +13,7 @@ public class Activity2 {
 		driver.get("https://training-support.net/webelements/login-form");
 
 		// Print the title of the page
-		System.out.println("Title of page is: " + driver.findElement(By.tagName("h1")).getText());
+		System.out.println("Title of page is: " +driver.getTitle());
 
 		// Find the username field and enter the username
 		System.out.println("Entering username..");
@@ -33,4 +33,5 @@ public class Activity2 {
 		// Close the browser
 		driver.quit();
 	}
+
 }
