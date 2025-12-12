@@ -1,6 +1,7 @@
 package activities;
 
 class CustomException extends Exception {
+    private static final long serialVersionUID = 1L;
 	private String message=null;
 
 //constructor initializes the variable message with a custom value	
@@ -43,3 +44,4 @@ public class Activity8 {
 	}
 
 }
+
