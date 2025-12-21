@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="Suite">
+	<test thread-count="4" name="ProjectActivityVerifyTitle">
+		<classes>
+			<class name="com.activities.project.TestCase1VerifyTitle" />
+			<class name="com.activities.project.TestCase2HeaderURL" />
+			<class name="com.activities.project.TestCase3CopyrightText" />
+			<class name="com.activities.project.TestCase4Login" />
+			<class name="com.activities.project.TestCase5ColourNavigation" />
+			<class name="com.activities.project.TestCase6ActivitiesMenuCheck" />
+			<class name="com.activities.project.TestCase7AdditionalInfoPopUp" />
+			<class name="com.activities.project.TestCase8PrintOddRowsAccountTable" />
+			<class name="com.activities.project.TestCase9TablePrintColumns" />
+		</classes>
+	</test> <!--Test -->
+</suite> <!--Suite -->
