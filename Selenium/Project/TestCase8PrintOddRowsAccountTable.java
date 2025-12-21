@@ -29,7 +29,7 @@ public class TestCase8PrintOddRowsAccountTable {
 		driver.findElement(By.id("username_password")).sendKeys("pa$$w0rd");
 		driver.findElement(By.name("Login")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='toolbar']")));
-		System.out.println("\nLogin Successful!!\n");
+	
 	}
 
 	// Test function
@@ -68,3 +68,4 @@ public class TestCase8PrintOddRowsAccountTable {
 
 
 }
+
